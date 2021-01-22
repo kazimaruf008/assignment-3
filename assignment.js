@@ -1,5 +1,6 @@
-//   Kilometer To Meter
+//   github link:- https://github.com/kazimaruf008/assignment-3
 
+//   Kilometer To Meter
 
 function kilometerToMeter(kilometer){
     var meter = kilometer*1000;
@@ -9,7 +10,6 @@ var meterResult = kilometerToMeter(5);
 console.log(meterResult)
 
 //   Budget Calculator
-
 
 function budgetCalculator(was, mobile, laptop){
     var value = 0
@@ -23,9 +23,7 @@ function budgetCalculator(was, mobile, laptop){
 }
 console.log(budgetCalculator(25,27,45))
 
-
 //   Hotle Cost
-
 
 function hotelCost (cost) {
     var totalCost
