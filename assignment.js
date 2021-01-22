@@ -45,5 +45,19 @@ function hotelCost (cost) {
     }
     return totalCost
 }
-
 console.log(hotelCost(21))
+
+//  megaFriend
+
+function megaFriend(arr){
+    let longest ="";
+    arr.map(function(str){
+        if (str.length> longest.length) {
+            longest = str ;
+        }
+    })
+    return longest;
+}
+var friend = ["Saab", "sumon","shazid", "asif", "maruf"];
+
+console.log(megaFriend(friend));
